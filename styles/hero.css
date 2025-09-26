@@ -2,7 +2,7 @@
 .hero {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("/assets/images/hero-image.png");
+    url("./assets/images/hero-image.png");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -43,19 +43,19 @@
 
 .avatar-1 {
   margin-left: 0;
-  background-image: url("/assets/images/Avatar.png");
+  background-image: url("./assets/images/Avatar.png");
   background-size: cover;
 }
 
 .avatar-2 {
   margin-left: -0.4rem;
-  background-image: url("/assets/images/avator-1.png");
+  background-image: url("./assets/images/avator-1.png");
   background-size: cover;
 }
 
 .avatar-3 {
   margin-left: -0.4rem;
-  background-image: url("/assets/images/avator-3.png");
+  background-image: url("./assets/images/avator-3.png");
   background-size: cover;
 }
 
