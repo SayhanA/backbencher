@@ -1,5 +1,6 @@
 .product-section {
-  padding: 5rem 0
+  padding: 5rem 30px;
+  overflow: hidden;
 }
 
 .product-container {
@@ -32,7 +33,14 @@
   object-fit: contain;
 }
 
+.product-thumbnails-container{
+  width: 100%;
+  overflow: auto;
+  padding: .4rem;
+}
+
 .product-thumbnails {
+  width: fit-content;
   display: flex;
   gap: 1rem;
 }
@@ -279,7 +287,7 @@
   }
 
   .product-section {
-    padding: 2rem 1rem;
+    padding: 2rem 30px;
   }
 
   .product-title {
@@ -292,5 +300,12 @@
 
   .payment-methods {
     justify-content: center;
+  }
+}
+
+
+@media (max-width: 480px) {
+   .product-section {
+    padding: 2rem 1rem;
   }
 }
