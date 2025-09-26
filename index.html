@@ -55,7 +55,8 @@
     <link rel="stylesheet" href="./styles/hero.css" as="style" />
     <link rel="stylesheet" href="./styles/product.css" as="style" />
     <link rel="stylesheet" href="./styles/footer.css" as="style" />
-    <link rel="stylesheet" href="./styles/pain.css" as="style">
+    <link rel="stylesheet" href="./styles/pain.css" as="style" />
+    <link rel="stylesheet" href="./styles/carousal.css" as="style" />
   </head>
   <body>
     <header class="header">
@@ -320,6 +321,63 @@
       </div>
     </section>
 
+    <section class="carousel-section" id="carousel">
+      <div class="container">
+        <div class="carousel-content">
+          <div class="carousel-header">
+            <div class="carousel-header-content">
+              <h2>Why Choose Our Nasal Clip?</h2>
+              <p>
+                Our nasal clip provides a simple, effective solution for
+                snoring, congestion, and improved airflow during activities,
+                offering comfort and relief.
+              </p>
+            </div>
+            <div class="carousel-navigation">
+              <button class="carousel-nav-btn prev" aria-label="Previous slide">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17"
+                  height="12"
+                  viewBox="0 0 17 12"
+                  fill="none"
+                >
+                  <path
+                    d="M1.22705 6.22729L5.51276 1.22729M1.22705 6.22729L5.51276 11.2273M1.22705 6.22729C1.22705 6.22729 3.79854 6.22729 9.79847 6.22729C15.7984 6.2273 16.227 6.22729 16.227 6.22729"
+                    stroke="#070707"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+              <button class="carousel-nav-btn next" aria-label="Next slide">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="25"
+                  viewBox="0 0 25 25"
+                  fill="none"
+                >
+                  <path
+                    d="M19.6816 13.2273L15.3959 8.22729M19.6816 13.2273L15.3959 18.2273M19.6816 13.2273C19.6816 13.2273 17.1102 13.2273 11.1102 13.2273C5.11029 13.2273 4.68168 13.2273 4.68168 13.2273"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="carousel-slides"></div>
+
+          <div class="carousel-indicators"></div>
+        </div>
+      </div>
+    </section>
+
     <footer class="footer">
       <div class="footer-content container">
         <div class="footer-cta">
@@ -408,5 +466,6 @@
     <script src="./javascript/hero.js" defer></script>
     <script src="./javascript/product.js" defer></script>
     <script src="./javascript/footer.js" defer></script>
+    <script src="./javascript/carousal.js" defer></script>
   </body>
 </html>
