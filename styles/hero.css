@@ -8,8 +8,7 @@
   display: flex;
   align-items: center;
   color: white;
-  padding: 0 2rem;
-  margin-top: 64px;
+  padding: 4rem 2rem 0 2rem;
 }
 
 .hero-content {
@@ -134,6 +133,21 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  .customer-badge{
+    flex-wrap: nowrap;
+    margin-bottom: .5rem;
+  }
+  
+  .avatar{
+    width: 32px;
+    height: 32px;
+  }
+  
+  .customer-badge-text{
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+  
   .hero-title {
     font-size: 2.5rem;
   }
@@ -144,12 +158,6 @@
 
   .hero-description {
     font-size: 1rem;
-  }
-
-  .customer-badge {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.5rem;
   }
 }
 

@@ -277,7 +277,7 @@
 /* Responsive styles for product section */
 @media (max-width: 768px) {
   .product-container {
-    grid-template-columns: 1fr;
+    flex-wrap: wrap;
     gap: 2rem;
   }
 

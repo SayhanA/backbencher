@@ -1,4 +1,3 @@
-/* Header Styles */
 .header {
   background: white;
   padding: 1rem 2rem;
@@ -24,21 +23,21 @@
   color: #ff6b35;
 }
 
-.nav-menu {
+.nav-links {
   display: flex;
   list-style: none;
-  gap: 2rem;
+  gap: 1rem;
   align-items: center;
 }
 
-.nav-menu a {
+.nav-links a {
   text-decoration: none;
   color: #333;
   font-weight: 500;
   transition: color 0.3s ease;
 }
 
-.nav-menu a:hover {
+.nav-links a:hover {
   color: #ff6b35;
 }
 
@@ -70,21 +69,24 @@
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
-  .nav-menu {
+@media (max-width: 1130px) {
+  .nav-links {
+    width: fit-content;
+    min-width: 320px;
+    height: 100vh;
     display: none;
     position: absolute;
     top: 100%;
-    left: 0;
     right: 0;
     background: white;
     flex-direction: column;
     padding: 1rem;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     gap: 1rem;
+    transition: all ease-in-out;
   }
 
-  .nav-menu.active {
+  .nav-links.active {
     display: flex;
   }
 
