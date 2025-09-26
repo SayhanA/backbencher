@@ -43,19 +43,19 @@
 
 .avatar-1 {
   margin-left: 0;
-  background-image: url("./assets/images/Avatar.png");
+  background-image: url("/assets/images/Avatar.png");
   background-size: cover;
 }
 
 .avatar-2 {
   margin-left: -0.4rem;
-  background-image: url("./assets/images/avator-1.png");
+  background-image: url("/assets/images/avator-1.png");
   background-size: cover;
 }
 
 .avatar-3 {
   margin-left: -0.4rem;
-  background-image: url("./assets/images/avator-3.png");
+  background-image: url("/assets/images/avator-3.png");
   background-size: cover;
 }
 
