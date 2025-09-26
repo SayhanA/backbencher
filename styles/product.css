@@ -308,4 +308,10 @@
    .product-section {
     padding: 2rem 1rem;
   }
+
+  .pricing{
+    flex-wrap: wrap;
+    gap: 4px;
+  }
 }
+

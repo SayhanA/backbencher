@@ -1,12 +1,11 @@
 .footer {
-  background: linear-gradient(135deg, #8b4513 0%, #a0522d 50%, #cd853f 100%);
+  background: #6B2B00;
   color: white;
   padding: 4rem 2rem 2rem;
 }
 
 .footer-content {
-  max-width: 1200px;
-  margin: 0 auto;
+  padding: 0 30px;
 }
 
 .footer-cta {
@@ -53,15 +52,13 @@
 
 .footer-divider {
   text-align: center;
-  padding: 2rem 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 1.2rem 0;
+  border-bottom: 1px solid white;
   margin-bottom: 2rem;
 }
 
 .copyright {
   font-size: 0.9rem;
-  opacity: 0.8;
 }
 
 .footer-bottom {
