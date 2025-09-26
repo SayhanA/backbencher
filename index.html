@@ -323,7 +323,7 @@
 
     <section class="carousel-section" id="carousel">
       <div class="container">
-        <div class="carousel-content">
+        <diLv class="carousel-content">
           <div class="carousel-header">
             <div class="carousel-header-content">
               <h2>Why Choose Our Nasal Clip?</h2>
@@ -334,7 +334,10 @@
               </p>
             </div>
             <div class="carousel-navigation">
-              <button class="carousel-nav-btn prev" aria-label="Previous slide">
+              <button
+                class="carousel-btn carousel-nav-btn prev"
+                aria-label="Previous slide"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="17"
@@ -351,7 +354,10 @@
                   />
                 </svg>
               </button>
-              <button class="carousel-nav-btn next" aria-label="Next slide">
+              <button
+                class="carousel-btn carousel-nav-btn next"
+                aria-label="Next slide"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="25"
@@ -371,9 +377,26 @@
             </div>
           </div>
 
-          <div class="carousel-slides"></div>
+          <div class="carousel-slides">
+            <div class="carousel-slider">
+              <div class="slide">
+                <img src="./assets/images/carousal.png" alt="Hero slide" />
+              </div>
+              <div class="slide">
+                <img src="./assets/images/carousal.png" alt="Hero slide" />
+              </div>
+            </div>
+          </div>
 
-          <div class="carousel-indicators"></div>
+            <div class="slide-content">
+              <h3>Reduces Snoring</h3>
+              <p>Our nasal clip is scientifically designed to fits seamlessly into your daily routine.</p>
+
+              <div class="dots">
+                <div class="dot dot-active"></div>
+                <div class="dot"></div>
+              </div>
+            </div>
         </div>
       </div>
     </section>
