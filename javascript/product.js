@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", () => {
   thumbnails.forEach((thumbnail) => {
     thumbnail.addEventListener("click", function () {
       thumbnails.forEach((t) => t.classList.remove("active"));
-
       this.classList.add("active");
 
       const imgSrc = this.querySelector("img").getAttribute("src");
@@ -38,5 +37,15 @@ document.addEventListener("DOMContentLoaded", () => {
       this.style.background = "#ff6b35";
       this.innerHTML = "Add to Cart →";
     }, 2000);
+  });
+
+  // ✅ Payment method selection
+  const paymentImages = document.querySelectorAll(".payment-methods img");
+
+  paymentImages.forEach((img) => {
+    img.addEventListener("click", () => {
+      paymentImages.forEach((el) => el.classList.remove("active-payment"));
+      img.classList.add("active-payment");
+    });
   });
 });

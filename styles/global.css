@@ -18,6 +18,11 @@ body {
   --bg-secondary-white: #f5f7f9;
 }
 
+.container{
+  margin: 0 auto;
+  max-width: 1440px;
+  /* padding: 4rem 0; */
+}
 
 
 
