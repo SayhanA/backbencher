@@ -1,6 +1,4 @@
-// Hero section functionality
 document.addEventListener("DOMContentLoaded", () => {
-  // Smooth scrolling for shop button
   const shopBtn = document.querySelector(".shop-btn")
   if (shopBtn) {
     shopBtn.addEventListener("click", (e) => {
@@ -15,7 +13,6 @@ document.addEventListener("DOMContentLoaded", () => {
     })
   }
 
-  // Animate customer badge on scroll
   const customerBadge = document.querySelector(".customer-badge")
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
